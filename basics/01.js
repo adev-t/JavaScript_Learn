@@ -37,6 +37,7 @@ null [its a stand alone value, ie. type]
 undefined [value not given, differs from null as an "empty" value.]
 symbol [are unique...used in react, figma, etc.]
 object
+NaN - when "312abcs" is converted to a number type.
 */ 
 
 console.table([typeof email_Id, typeof user_phone])
