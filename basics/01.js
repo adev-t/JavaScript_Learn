@@ -15,3 +15,43 @@ console.table([user_password, user_address, user_phone])
 
 // var is not scoped, and creates liabilities.
 
+
+// =========================================================================================
+
+
+// lets learn about datatypes...
+
+"use strict";  // all the code in this file is treated as the new JavaScript.
+
+// alert("hello world");  // alert is not a part of javaScript but of browser...
+
+console.table(["add1", "add2", "add3"]);
+
+
+/* types of datatypes: 
+number ≤ 2⁵³
+bigint
+string
+boolean
+null [its a stand alone value, ie. type]
+undefined [value not given, differs from null as an "empty" value.]
+symbol [are unique...used in react, figma, etc.]
+object
+*/ 
+
+console.table([typeof email_Id, typeof user_phone])
+console.table([ typeof null, typeof undefined])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
