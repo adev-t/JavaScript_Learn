@@ -11,6 +11,7 @@ var user_phone = 859839589829
 
 console.log(user_Id);
 
-console.table(user_password, user_address, user_phone)
+console.table([user_password, user_address, user_phone])
 
+// var is not scoped, and creates liabilities.
 
